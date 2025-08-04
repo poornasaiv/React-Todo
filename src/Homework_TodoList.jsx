@@ -96,7 +96,7 @@ export default function Homework_TodoList(){
             ref={inputRef}
             value={inputValue}
             onChange={handleChange}
-            placeholder="Enter new task"
+            placeholder="Enter the task name"
             />
             <button onClick={handleSubmit}>Submit</button>
         </div>
