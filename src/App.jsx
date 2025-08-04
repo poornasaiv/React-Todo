@@ -10,6 +10,7 @@ import TodoList from './TodoList.jsx'
 import TodoPractice from './TodoPractice.jsx'
 import Homework_TodoList from './Homework_TodoList.jsx'
 import Homework_TodoListClass from './Homework_TodoList_UsingClassComponent/Homework_TodoListClass.jsx'
+import Tic_Tac_Toe from './Tic_Tac_Toe/Tic_Tac_Toe.jsx'
 
 function App() {
   
@@ -41,8 +42,12 @@ function App() {
   {/* IMPLEMENTED A TODO LIST APP WITH ADD/EDIT/DELETE FEATURES BUT LEVERAGES useState, useEffect, useRef, useCallback, useMemo features 
   <Homework_TodoList />
   <hr /> */}
-  
-  <Homework_TodoListClass />
+
+  {/* IMPLEMENTED A TODO LIST APP WITH ADD/EDIT/DELETE FEATURES BUT USED CLASS COMPONENTS INSTEAD OF FUNCTIONAL COMPONENTS
+  <Homework_TodoListClass /> */}
+
+  {/* IMPLEMENTED TIC TAC TOE GAME USING FUNCTIONAL COMPONENTS */}
+  <Tic_Tac_Toe />
 
   </>
   )
