@@ -7,6 +7,8 @@ import Counter from './Counter.jsx'
 import LikeButton from './LikeButton.jsx'
 import LudoBoard from './LudoBoard.jsx'
 import TodoList from './TodoList.jsx'
+import TodoPractice from './TodoPractice.jsx'
+import Homework_TodoList from './Homework_TodoList.jsx'
 
 function App() {
   
@@ -28,7 +30,18 @@ function App() {
   //IMPLEMENTED A LUDO TYPE GAME WHICH TRACKS THE MOVES WHEN A COLOR IS CLICKED
   //<LudoBoard /> */}
 
-  <TodoList />
+  {/* IMPLEMENTED A TODO LIST APP WITH ADD/EDIT/DELETE/MARK AS DONE FEATURES
+  <TodoList /> */}
+
+  {/* IMPLEMENTED A TODO LIST APP WITH ADD/EDIT/DELETE FEATURES BUT THIS USES SAME STATE FOR BOTH ADD AND EDIT TASKS. IT HAS A SIDE EFFECT THOUGH
+  IDEAL CASE IS TO USE SEPARATE STATES LIKE IN THE ABOVE CREATED TODO LIST (<TodoList /> example)
+  <TodoPractice /> */}
+
+  {/* IMPLEMENTED A TODO LIST APP WITH ADD/EDIT/DELETE FEATURES BUT LEVERAGES useState, useEffect, useRef, useCallback, useMemo features 
+  <Homework_TodoList /> */}
+
+  
+
   </>
   )
 }
