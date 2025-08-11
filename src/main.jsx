@@ -4,13 +4,14 @@ import { Provider } from 'react-redux';
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import store from './TodoList_ReduxCore/store'; 
+import TodoStore from './Homework_TodoListThunk/TodoStore'; 
 
 
 createRoot(document.getElementById('root')).render(
  <React.StrictMode>
-    <Provider store={store}>
+    <Provider store={TodoStore}>
       <App /> {/* or <TodoRedux /> directly */}
     </Provider>
    </React.StrictMode>,
 )
+
